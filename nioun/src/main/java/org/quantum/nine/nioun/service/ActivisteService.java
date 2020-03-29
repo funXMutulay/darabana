@@ -5,9 +5,7 @@ import java.util.List;
 import org.quantum.nine.nioun.entities.Activiste;
 
 
-
 public interface ActivisteService {
-	
 
 	Activiste saveActiviste(Activiste activiste);
 

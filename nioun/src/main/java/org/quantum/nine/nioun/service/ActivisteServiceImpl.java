@@ -11,19 +11,18 @@ import org.springframework.stereotype.Service;
 public class ActivisteServiceImpl implements ActivisteService {
 
 	@Autowired
-	ActivisteRepo activisteRepo ;
-	
-	
+	ActivisteRepo activisteRepo;
+
 	@Override
 	public Activiste saveActiviste(Activiste activiste) {
 
-		return  activisteRepo.save(activiste);
+		return activisteRepo.save(activiste);
 	}
 
 	@Override
 	public Activiste updateActiviste(Activiste activiste) {
 
-		return activisteRepo.saveAndFlush(activiste) ;
+		return activisteRepo.saveAndFlush(activiste);
 	}
 
 	@Override

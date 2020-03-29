@@ -77,47 +77,12 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#slideshow {/*slider container css*/
-  width: 800px;
-  height: 400px;
-  overflow: hidden;
-  margin: 50px auto 50px auto;
-  box-shadow: 0px 0px 50px #333;
-  -moz-box-shadow: 0px 0px 50px #333;
-  -webkit-box-shadow: 0px 0px 50px #333;
+.form-control{
+	width : 200 px ;
 }
-#slideshow ul {/*manage slider scroll elements css*/
-  width: 4000px;
-  list-style: none; 
-}
-#slideshow ul li {
-  float: left;
-}
-#slideshow-nav {/* Slider navigation container css */
-  width: 150px;
-  margin: 0 auto 100px auto;
-}
-#slideshow-nav ul {
-  list-style: none; 
-}
-#slideshow-nav ul li {
-  float: left; 
-}
-#slideshow-nav ul li a {/* navigation styling css */
-  display: block;
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 0 5px;
-  background: #fff;
-  text-indent: -9999px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  box-shadow: 0px 0px 30px #000;
-  -webkit-box-shadow: 0px 0px 30px #000;
-}
-#slideshow-nav ul li a:hover, #slideshow-nav ul li a.active {
-/* hover and active navigation css */
-  background: #333;
+#central{
+	top:10%;
+	left:10%;
+	width:80%
 }
 }
